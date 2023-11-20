@@ -1,15 +1,13 @@
-<?php 
-class Latihan1 extends CI_Controller 
-{ 
-    public function index() 
+<?php
+class latihan1 extends CI_Controller
+{
+    public function index ()
     {
-     
-        echo "<h1>Perkenalkan</h1>"; 
-        echo "Nama  : Zidan Alif Fadhillah <br>"; 
-        echo "NIM   : 1921125<br>"; 
-        echo "HP    : 082297272475<br>"; 
-        echo "Hobi  : bulutangkis<br>"; 
-        echo "alamat: bekasi,Serang Baru<br>"; 
-        echo "Umur  : 19"; 
-    } 
-} 
+        echo "<h1>Biodata Mahasiswa BSI</h1>";
+        echo "Nama : Zidan Alif Fadhillah<br>";
+        echo "Nim : 19221125<br>";
+        echo "Kelas : 19.3A.24<br>";
+        echo "Umur : 19 Tahun<br>";
+    }
+}
+?>
